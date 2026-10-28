@@ -83,8 +83,9 @@ Para poner un compledjo dentro de otro complejo hay que poner:
 
 > [!TIP]
 > 1. Líneas, escribir a lapíz lineas
-> 2. Escribit a lapíz los nodos abiertos y cerrados
-> 3. Por favor si alguien se sabe más trucos que me lo diga por favor
+> 2. EscribiR a lapíz los nodos abiertos y cerrados
+> 3. Dejar la estructura de tabulación, es más útil de lo que parece
+> 4. Por favor si alguien se sabe más trucos que me lo diga por favor
 
 Hay que repetir la estructura.
 ### Ejemplo
