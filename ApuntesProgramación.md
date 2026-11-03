@@ -90,4 +90,8 @@ Aquí se puede ver esto. En otras palabras: Puedes crear un bucle en el que le p
 > Un solo try puede tener más de un catch, eso es jugoso
 
 Los catch tienen nombres y NetBeans se queja si lo haces mal, así que sin problemas
+
+## Como hacer un multicatch
+Como un catch de toda la vida pero agregando | 
+#Java
 ![Logo Java](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4mZCEDMSJuTyD3WMEcpRK76qbrYmvBMW4Ml11M1bvg&s=10)
