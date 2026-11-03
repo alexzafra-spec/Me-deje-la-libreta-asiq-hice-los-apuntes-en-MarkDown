@@ -88,4 +88,6 @@ Aquí se puede ver esto. En otras palabras: Puedes crear un bucle en el que le p
 #Java
 
 > Un solo try puede tener más de un catch, eso es jugoso
+
+Los catch tienen nombres y NetBeans se queja si lo haces mal, así que sin problemas
 ![Logo Java](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4mZCEDMSJuTyD3WMEcpRK76qbrYmvBMW4Ml11M1bvg&s=10)
