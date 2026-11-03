@@ -86,4 +86,6 @@ public class FADCO {
 ```
 Aquí se puede ver esto. En otras palabras: Puedes crear un bucle en el que le pides a un usuario que te meta un int y mantenerlo dentro eternamente hasta que le muy motherfuker te ponga le maleito catch.
 #Java
+
+> Un solo try puede tener más de un catch, eso es jugoso
 ![Logo Java](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4mZCEDMSJuTyD3WMEcpRK76qbrYmvBMW4Ml11M1bvg&s=10)
