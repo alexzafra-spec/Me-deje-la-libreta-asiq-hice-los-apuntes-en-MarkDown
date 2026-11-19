@@ -90,7 +90,9 @@ Aquí se puede ver esto. En otras palabras: Puedes crear un bucle en el que le p
 
 ## Como hacer un multicatch
 Como un catch de toda la vida pero agregando | 
+
 #Java
+
 ![Logo Java](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4mZCEDMSJuTyD3WMEcpRK76qbrYmvBMW4Ml11M1bvg&s=10)
 # Clase 2
 Si queremos ordenar los Arrys es un rollo sobretodo cuando són grandes. Hay algoritmos que son automaticos que lo hacen, se hacen de forma automatica.
@@ -134,6 +136,8 @@ class BubbleSort {
         System.out.println();
     }
 }
+
+// Output: 12 25 34 64 
 ```
 No hay que poner archivos ni proyectos que se llame arrays//array
 Actualmente se pone así
