@@ -85,13 +85,68 @@ public class FADCO {
 }
 ```
 Aquí se puede ver esto. En otras palabras: Puedes crear un bucle en el que le pides a un usuario que te meta un int y mantenerlo dentro eternamente hasta que le muy motherfuker te ponga le maleito catch.
-#Java
 
 > Un solo try puede tener más de un catch, eso es jugoso
-
-Los catch tienen nombres y NetBeans se queja si lo haces mal, así que sin problemas
 
 ## Como hacer un multicatch
 Como un catch de toda la vida pero agregando | 
 #Java
 ![Logo Java](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX4mZCEDMSJuTyD3WMEcpRK76qbrYmvBMW4Ml11M1bvg&s=10)
+# Clase 2
+Si queremos ordenar los Arrys es un rollo sobretodo cuando són grandes. Hay algoritmos que son automaticos que lo hacen, se hacen de forma automatica.
+
+De forna interna compara pares de numeros entre ellos y va empujando a la derecha el numero que ve hasta que está bien. 
+![gif de algoritmo de burbuja](https://stackabuse.s3.amazonaws.com/media/bubble-sort-in-java-1.gif)
+
+Aqui hay un ejemplo
+```java
+// Java program for implementation
+// of Bubble Sort
+
+class BubbleSort {  
+    void bubbleSort(int arr[])
+    {
+        int n = arr.length;
+      
+        for (int i = 0; i < n - 1; i++)
+            for (int j = 0; j < n - i - 1; j++)
+                if (arr[j] > arr[j + 1]) {
+                  
+                    // swap temp and arr[i]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+    }
+
+    // Driver method to test above
+    public static void main(String args[])
+    {
+        BubbleSort ob = new BubbleSort();
+        int a[] = { 64, 34, 25, 12 };
+      
+        ob.bubbleSort(a);
+      
+      	int n = a.length;
+      
+        for (int i = 0; i < n; ++i)
+            System.out.print(a[i] + " ");
+        System.out.println();
+    }
+}
+```
+No hay que poner archivos ni proyectos que se llame arrays//array
+Actualmente se pone así
+```java
+Arrays.sort(notes)
+```
+Si quieres Strings te los ordena según tablas ascii. Sigue orden alfabetico poniendo arriba las mayúsculas.
+
+El .toCharArry
+## Como conseguir las letras de una palabra
+```java
+String palabra = "Electricidad";
+char[] letras = palabra.toCharArray(); // Con esto separamos las letras
+ ```
+
+ Con esto puedes ordenar las letras y ver si es un anagrama o no. Osea puedes poner: `Arrays.sort(var)` para que se ordene y luego un bucle que compare uno a uno.
